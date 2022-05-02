@@ -88,7 +88,7 @@ namespace TreinamentoDLL
             this.label1.Location = new System.Drawing.Point(13, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 17);
+            this.label1.Size = new System.Drawing.Size(139, 16);
             this.label1.TabIndex = 21;
             this.label1.Text = "Arquivo do Certificado";
             // 
@@ -98,7 +98,7 @@ namespace TreinamentoDLL
             this.label3.Location = new System.Drawing.Point(965, 9);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 17);
+            this.label3.Size = new System.Drawing.Size(132, 16);
             this.label3.TabIndex = 23;
             this.label3.Text = "Senha do Certificado";
             // 

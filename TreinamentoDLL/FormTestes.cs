@@ -12,6 +12,7 @@ using Unimake.Business.DFe.Xml.NFe;
 using Unimake.Security.Platform;
 using Unimake.Business.DFe.Servicos;
 using Unimake.Business.DFe.Servicos.NFe;
+using System.Xml;
 
 namespace TreinamentoDLL
 {
@@ -67,6 +68,7 @@ namespace TreinamentoDLL
 
                 //MessageBox.Show(statusServico.Result.CStat + " " + statusServico.Result.XMotivo);
                 this.textBox_resultado.Text = statusServico.Result.CStat + " " + statusServico.Result.XMotivo;
+                this.textBox_resultado.Text += "\r\n" + statusServico.RetornoWSString;
 
             }
             catch (Exception ex)
@@ -109,6 +111,7 @@ namespace TreinamentoDLL
 
                 //MessageBox.Show(consultaProtocolo.Result.CStat + " " + consultaProtocolo.Result.XMotivo);
                 this.textBox_resultado.Text = consultaProtocolo.Result.CStat + " " + consultaProtocolo.Result.XMotivo;
+                this.textBox_resultado.Text += "\r\n" + consultaProtocolo.RetornoWSString;
 
             }
             catch (Exception ex)
