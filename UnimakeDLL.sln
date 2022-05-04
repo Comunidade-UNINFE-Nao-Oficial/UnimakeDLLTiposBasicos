@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinamentoDLL", "TreinamentoDLL\TreinamentoDLL.csproj", "{F68C9CA4-EA41-432A-B2B7-2F388896F165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceUnimakeDLL", "InterfaceUnimakeDLL\InterfaceUnimakeDLL.csproj", "{4CCF96F8-CDFD-4F96-A17D-B4C5D4534622}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F68C9CA4-EA41-432A-B2B7-2F388896F165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F68C9CA4-EA41-432A-B2B7-2F388896F165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F68C9CA4-EA41-432A-B2B7-2F388896F165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CCF96F8-CDFD-4F96-A17D-B4C5D4534622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCF96F8-CDFD-4F96-A17D-B4C5D4534622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCF96F8-CDFD-4F96-A17D-B4C5D4534622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCF96F8-CDFD-4F96-A17D-B4C5D4534622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
